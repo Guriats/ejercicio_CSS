@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+header { 
+    
+    height: 70px; 
+    display: flex; /*responsive*/
+    justify-content: space-between; 
+    align-items: center;   padding: 0 20px; 
+  }
+/*referente a la al elemento ul*/
+  header ul {
+    display: flex;
+    gap: 20px; /*espaciado de las palabras*/
+    list-style: none; /*quita los circulitos de las listas*/
+  }
+
+  .cabecera{
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /*corte de imagen*/
+    object-position: 50% 30%; /*posición de la imagen por porcentaje*/
+  }
+
+  .textobajocabecera{
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+    color:rgb(70, 70, 71);
+    margin-top: 10;
+   
+  }
+
+  .enlacelinea {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .enlacelinea img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    margin: 0 50px;
+  }
+
+
+  .circulos {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+  }
+  
+  .circulos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    margin: 0 50px;
+  }
+
+  /*ajusta la imagen dentro del div*/
+  .marco {
+    width: 300px;
+    height: 700px;
+    color:brown;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
